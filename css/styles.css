@@ -1,0 +1,3646 @@
+body{
+    font-family:arial;
+}
+
+.container{
+    width: 978px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.whiteheader{
+    height:60px;
+    background-color:#ffffff;
+    width: 1440px;
+    z-index: 1000;
+    top:0px;
+    position: fixed;
+}
+
+h1{
+    float:left;
+    color:#b36c3e;
+    font-size:12px;
+    margin-top:27px;
+}
+
+.list li{
+    float:left;
+    color:#b36c3e;
+    font-size:12px;
+    margin-top:27px;
+    margin-left:25px;
+    cursor: inherit;
+    transition: all 800ms ease, opacity 80ms;
+}
+
+.list li:hover{
+    float:left;
+    color: #2f1b12;
+    font-size:12px;
+    margin-top:25px;
+    margin-left:25px;
+    transition: all 800ms ease, opacity 80ms;
+}
+
+.list{
+    margin-left:650px;
+    font-size: bold;
+ }
+
+.hugegraybox{
+    width:1200px;
+    height:550px;
+    color:#333232;
+}
+
+.mainholder1{
+    /*display: none;*/
+    position: absolute;
+    width:1400px;
+    height:620px;
+    top:50%;
+    left:50%;
+    margin-left:-700px;
+    margin-top:-300px;
+    background-color:#ffffff;
+  }
+
+.frontpage{
+    clear: both;
+    float: left;
+    margin-left: 201px;
+    width: 500px;
+    height: 572px;
+    background-color: #ffffff;
+    margin-top:42px;
+}
+
+.firstphoto{
+    width:523px;
+	height:553px;
+    background-image: url(../images/photocirclefinal.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: 100%;
+    margin-left:1px;
+    margin-top: 0px;
+    background-position: center;
+}
+
+.firstheading{
+    float:right;
+    margin-right:212px;
+    font-size:38px; 
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-top: 100px;
+    color:#b36c3e;
+}
+
+.firstparagraph{
+    float:right;
+    margin-right:132px;
+    font-size:16px; 
+    width:532px;
+    margin-top:21px;
+    line-height:30px;
+    color: #2f1b12;
+}
+
+.firstparagraph2{
+    float:right;
+    margin-right:132px;
+    font-size:16px; 
+    width:532px;
+    line-height:30px;
+    margin-top: 30px;
+}
+
+.mainholder2{
+    display: none;
+    position: absolute;
+    width:1400px;
+    height:1700px;
+    top:50%;
+    left:50%;
+    margin-left:-700px;
+    margin-top:-300px;
+    background-color:#ffffff;
+}
+
+.babyphoto1{
+    clear: both;
+	float:left;
+	margin-top:116px;
+    background-image: url(../images/babyphoto1\ copy.jpg);
+    border-radius: 100%;
+    width:314px;
+    height:320px;
+    margin-left:212px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 800ms ease, opacity 80ms;
+    border: 5px solid #b36c3e;
+}
+
+.babyphoto1:hover{
+    height:348px;
+    width:348px;
+    transition: all 800ms ease, opacity 80ms;
+    background-image: url(../images/babyphoto1.png);
+}
+
+.babyphoto2{
+	float:left;
+    background-image: url(../images/babyphoto3\ copy.jpg);
+    width:125px;
+    height:125px;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-top: 105px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border: 5px solid #b36c3e;
+    transition: all 800ms ease, opacity 80ms;
+}
+
+.babyphoto2:hover{
+    transition: all 800ms ease, opacity 80ms;
+    background-image: url(../images/babyphoto3.png);
+    width: 140px;
+    height: 140px;
+}
+
+.col-left{
+	float:right;
+	margin-top: 50px;
+}
+
+.pictureholder2{
+    float:right;
+    width: 459px;
+    height: 500px;
+    background-color:#ffffff;
+    clear: both;
+    margin-right:141px;
+    margin-top: 30px;
+}
+
+.teenagerphoto1{
+    float:right;
+    background-image: url(../images/teenagerphoto1\ copy.jpg);
+    width:314px;
+    height:320px;
+    border-radius: 100%;
+    margin-right: 37px;
+    margin-top: 151px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 800ms ease, opacity 80ms;
+    border: 5px solid #b36c3e;
+}
+
+.teenagerphoto1:hover{
+    transition: all 800ms ease, opacity 80ms;
+    background-image: url(../images/teenagerphoto1.jpg);
+    height:348px;
+    width:348px;
+}
+
+.teenagerphoto2{
+    background-image: url(../images/teenagerphoto2\ copy.jpg);
+    width:125px;
+    height:125px;
+    margin-left: 30px;
+    margin-top: 33px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 800ms ease, opacity 80ms;
+    border: 5px solid #b36c3e;
+    border-radius: 100%;
+}
+
+.teenagerphoto2:hover{
+    transition: all 800ms ease, opacity 80ms;
+    width: 140px;
+    height: 140px;
+    background-image: url(../images/teenagerphoto2.png);
+}
+
+.secondheading{
+    margin-right:250px;
+    font-size:38px; 
+    font-weight: bolder;
+    margin-top: 50px;
+    color:#b36c3e;
+}
+
+.secondparagraph{
+    margin-right:132px;
+    font-size:15px; 
+    width:510px;
+    line-height:30px;
+    margin-top: 20px;
+    color: #2f1b12;
+}
+
+.secondparagraph2{
+    margin-right:132px;
+    font-size:15px; 
+    width:510px;
+    line-height:30px;
+    margin-top: 20px;
+    color: #2f1b12;
+}
+
+.col-right{
+    float:left;
+	margin-top:50px;
+}
+
+.thridheading{
+    margin-left:250px;
+    font-size:38px;
+    margin-top: 50px; 
+    font-weight: bolder;
+    color:#b36c3e;
+}
+
+.thridparagraph{
+    margin-left:250px;
+    font-size:15px; 
+    width:510px;
+    line-height:30px;
+    margin-top: 20px;
+    color: #2f1b12;
+}
+
+.thridparagraph2{
+    margin-left:250px;
+    font-size:15px; 
+    width:510px;
+    line-height:30px;
+    margin-top: 20px;
+    color: #2f1b12;
+}
+
+.col-left2{
+    float:right;
+}
+
+.pictureholder3{
+    clear: both;
+	float: left;
+	width:500px;
+	height:500px;
+    background-color:#ffffff;
+    margin-left:239px;
+    margin-top: 54px;
+}
+
+.adultphoto1{
+    float:right;
+    background-image: url(../images/adultphotocopy2.png);
+    width:314px;
+    height:320px;
+    border-radius: 100%;
+    margin-right: 83px;
+    margin-top: 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 800ms ease, opacity 80ms;
+    border: 5px solid #b36c3e;
+    border-radius: 100%;
+}
+
+.adultphoto1:hover{
+    height:348px;
+    width:348px;
+    transition: all 800ms ease, opacity 80ms;
+    background-image: url(../images/adultphoto2.png);
+}
+
+.adultphoto2{
+    background-image: url(../images/adultphotocopy.png);
+    width:125px;
+    height:125px;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-top: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border: 5px solid #b36c3e;
+    transition: all 800ms ease, opacity 80ms;
+}
+
+.adultphoto2:hover{
+    transition: all 800ms ease, opacity 80ms;
+    background-image: url(../images/adultphoto.png);
+    width: 140px;
+    height: 140px;
+}
+
+.fourthheading{
+    margin-right:450px;
+    font-size:38px;
+    font-weight: bolder;
+    margin-top: 50px; 
+    color:#b36c3e;
+}
+
+.fourthparagraph{
+    font-size:15px; 
+    width:510px;
+    line-height:30px;
+    margin-top: 30px;
+    color: #2f1b12;
+}
+
+.fourthparagraph2{
+    font-size:15px;
+    width:510px;
+    line-height:30px;
+    margin-top: 30px;
+    color: #2f1b12;
+}
+
+.mainholder3{
+    display: none;
+    position: absolute;
+    width:1400px;
+    height:1700px;
+    top:50%;
+    left:50%;
+    margin-left:-700px;
+    margin-top:-300px;
+    background-color:#ffffff;
+}
+
+.col-left3{
+    margin-left: 170px;
+}
+
+.circle{
+    width:300px;
+    height:300px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    transition: all 800ms ease, opacity 80ms;
+}
+
+.circle:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 800ms ease, opacity 80ms;
+}
+
+.title{
+    color: #b36c3e;
+}
+
+.design1{
+    background-image: url(../images/uwstoutlogo.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.mainholder4{
+    display: none;
+    position: absolute;
+    width:1400px;
+    height:11370px;
+    top:50%;
+    left:50%;
+    margin-left:-700px;
+    margin-top:-300px;
+    background-color: #ffffff;
+}
+
+.col-left4{
+    float: left;
+    margin-left: 121px;
+    margin-bottom: 50px;
+}
+
+.stoutproject{
+    float: left;
+    margin-left:6px;
+    margin-top:100px;
+    width: 394px;
+    height: 600px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../images/stoutproject/FinalPoster1.jpg);
+    transition: all 800ms ease, opacity 80ms;
+}
+
+.two{
+    background-image: url(../images/stoutproject/FinalPoster2.jpg);
+}
+
+.three{
+    background-image: url(../images/stoutproject/FinalPoster3.jpg);
+}
+
+.projecttext{
+    clear: both;
+    width: 636px;
+    margin-left: 390px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #203354;
+    text-align: center;
+}
+
+.stoutposter{
+    float: left;
+    background-image: url(../images/stoutproject/Final\ Poster-1.jpg);
+    width: 435px;
+    height: 600px;
+    border-radius: 1%;
+    margin-left: 265px;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.stoutposter2{
+    float:right;
+    background-image: url(../images/stoutproject/Final\ Poster-2.jpg);
+    width: 435px;
+    height: 651px;
+    border-radius: 1%;
+    margin-right:253px;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.stoutposter3{
+    float: left;
+    background-image: url(../images/stoutproject/masquradeposter1.jpg);
+    width: 435px;
+    height: 651px;
+    margin-left: 263px;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 1%;
+}
+
+.stoutposter4{
+    float: right;
+    background-image: url(../images/stoutproject/masquradeposter2.jpg);
+    width: 435px;
+    height: 672px;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 1%;
+    margin-right:250px;
+}
+
+.stoutposter5{
+    float:left;
+    background-image: url(../images/stoutproject/masquradeposterswhite.jpg);
+    width: 435px;
+    height: 672px;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 1%;
+    margin-left: 265px;
+    margin-bottom: 50px;
+}
+
+.stoutposter6{
+    float:right;
+    background-image: url(../images/stoutproject/hollywooddesign.jpg);
+    width: 435px;
+    height: 672px;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 1%;
+    margin-right:246px;
+    margin-bottom: 50px;
+}
+
+.projecttext2{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left: 355px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #203354;
+    text-align: center;
+}
+
+.stoutposter7{
+    clear: both;
+    float:left;
+    background-image: url(../images/stoutproject/Artboard\ 1.jpg);
+    width: 446px;
+    height: 458px;
+    margin-top: 30px;
+    margin-left:337px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 1%;
+}
+
+.stoutposter8{
+    float: right;
+    background-image: url(../images/stoutproject/Feed.jpg);
+    width: 211px;
+    height: 458px;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 1%;
+    margin-right:342px;
+}
+
+.stoutposter9{
+    float: left;
+    background-image: url(../images/stoutproject/Rectangle\ 3.jpg);
+    width: 632px;
+    height: 458px;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 1%;
+    margin-left: 158px;
+    margin-bottom: 50px;
+}
+
+.stoutposter10{
+    float: right;
+    background-image: url(../images/stoutproject/Twitter\ Post\ Mockup2.jpg);
+    width: 258px;
+    height: 458px;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 1%;
+    margin-right:304px;
+}
+
+.projecttext3{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:367px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #203354;
+    text-align: center;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.stoutposter11{
+    clear: both;
+    float: left;
+    background-image:url(../images/stoutproject/TIMEassignment.jpg\ .jpg);
+    width: 450px;
+    height: 600px;
+    border-radius: 1%;
+    margin-left:233px;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.stoutposter12{
+    float: right;
+    background-image: url(../images/stoutproject/TIMEassignment2.jpg);
+    width: 450px;
+    height: 600px;
+    border-radius: 1%;
+    margin-right:252px;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.stoutposter13{
+    float: left;
+    background-image: url(../images/stoutproject/TIMEassignment3.jpg);
+    width: 450px;
+    height: 600px;
+    border-radius: 1%;
+    margin-left:233px;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.stoutposter14{
+    float: right;
+    background-image: url(../images/stoutproject/TIMEassignment4.jpg);
+    width: 450px;
+    height: 600px;
+    border-radius: 1%;
+    margin-right:252px;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.stoutposter15{
+    clear: both;
+    float: left;
+    background-image: url(../images/stoutproject/TIMEassignment5.jpg);
+    width: 450px;
+    height: 600px;
+    border-radius: 1%;
+    margin-left:233px;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-bottom: 50px;
+}
+
+
+.projecttext4{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:385px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #203354;
+    text-align: center;
+}
+
+.stoutposter16{
+    clear: both;
+    float: left;
+    background-image: url(../images/stoutproject/viper\ products-Current\ View.jpg);
+    width: 590px;
+    height: 376px;
+    margin-left: 124px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.stoutposter17{
+    float: right;
+    background-image: url(../images/stoutproject/cleasingoil1.jpg);
+    width: 590px;
+    height: 376px;
+    margin-right:83px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.stoutposter18{
+    float: left;
+    background-image: url(../images/stoutproject/PRIMER.jpg);
+    width: 590px;
+    height: 376px;
+    margin-left: 124px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-bottom: 50px;
+}
+
+.projecttext5{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left: 124px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #203354;
+}
+
+.italic2{
+    font-style: italic;
+}
+
+.stoutposter19{
+    clear: both;
+    float: left;
+    background-image: url(../images/stoutproject/smiledesign1.png);
+    width: 421px;
+    height: 370px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-left:266px;
+}
+
+.stoutposter20{
+    float: left;
+    background-image: url(../images/stoutproject/smiledesign2.png);
+    width: 421px;
+    height: 370px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-left: 15px;
+}
+
+.stoutposter21{
+    float: left;
+    background-image: url(../images/stoutproject/smiledesign3.png);
+    width: 421px;
+    height: 370px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-left:266px;
+    margin-bottom: 50px;
+}
+
+.stoutposter22{
+    float: right;
+    background-image: url(../images/stoutproject/smiledesign4.png);
+    width: 421px;
+    height: 370px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-right:277px;
+}
+
+.projecttext6{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:349px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #203354;
+    text-align: center;
+}
+
+.stoutposter23{
+    clear: both;
+    float: left;
+    background-image: url(../images/stoutproject/radioproject1.jpg);
+    width: 450px;
+    height: 600px;
+    border-radius: 1%;
+    margin-left:224px;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.stoutposter24{
+    float: right;
+    background-image: url(../images/stoutproject/radioproject2.jpg);
+    width: 450px;
+    height: 600px;
+    border-radius: 1%;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-right:263px;
+}
+
+.stoutposter25{
+    float: left;
+    background-image: url(../images/stoutproject/radioproject3.jpg);
+    width: 450px;
+    height: 600px;
+    border-radius: 1%;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-left:224px;
+}
+.stoutposter26{
+    float:right;
+    background-image: url(../images/stoutproject/radioproject4.jpg);
+    width: 450px;
+    height: 600px;
+    border-radius: 1%;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-right:263px;
+}
+
+.stoutposter27{
+    float: left;
+    background-image: url(../images/stoutproject/radioproject5.jpg);
+    width: 450px;
+    height: 600px;
+    border-radius: 1%;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-left:224px;
+}
+
+.stoutposter28{
+    float: right;
+    background-image: url(../images/stoutproject/radioproject6.jpg);
+    width: 450px;
+    height: 600px;
+    border-radius: 1%;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-right:263px;
+    margin-bottom: 50px;
+}
+
+.projecttext7{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left: 351px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #203354;
+    text-align: center;
+}
+
+.italic3{
+    font-style: italic;
+}
+
+
+.italic4{
+    font-style: italic;
+}
+
+.stoutposter29{
+    float: left;
+    background-image: url(../images/stoutproject/t-shirtdesign.jpg);
+    width: 590px;
+    height: 376px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-left: 111px;
+}
+
+.stoutposter30{
+    float: right;
+    background-image: url(../images/stoutproject/mobiledesign.jpg);
+    width: 652px;
+    height: 376px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-right: 42px;
+}
+
+.stoutposter31{
+    float: left;
+    background-image: url(../images/stoutproject/businescard.jpg);
+    width: 590px;
+    height: 376px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-left: 113px;
+    margin-bottom: 50px;
+}
+
+.projecttext8{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left: 111px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #203354;
+}
+
+.mainholder5{
+    display: none;
+    position: absolute;
+    width:1400px;
+    height:6590px;
+    top:50%;
+    left:50%;
+    margin-left:-700px;
+    margin-top:-300px;
+    background-color: #ffffff;
+}
+
+.design2{
+    background-image: url(../images/msslogo.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.mssproject{
+    float: left;
+    width: 450px;
+    height: 600px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../images/mssprojects/surving\ disapora\ 3.jpg);
+    margin-left: 239px;
+    margin-top: 81px;
+}
+
+.mssproject2{
+    float: right;
+    width: 450px;
+    height: 600px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../images/mssprojects/msfnproject.jpg);
+    margin-right:247px;
+    margin-top: 81px;
+}
+
+.mssproject3{
+    clear: both;
+    float: left;
+    width: 450px;
+    height: 600px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image:url(../images/mssprojects/indigenousposter\ .jpg);
+    margin-left: 239px;
+    margin-top: 27px;
+}
+
+.mssproject4{
+    float: right;
+    width: 445px;
+    height: 665px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image:url(../images/mssprojects/druminganddance.jpg);
+    margin-right:247px;
+    margin-top: 27px;
+}
+
+.mssproject5{
+    float: left;
+    width: 445px;
+    height: 691px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../images/mssprojects/mocktailhourposter.jpg);
+    margin-left: 239px;
+    margin-top: 27px;
+}
+
+.mssproject6{
+    float: right;
+    width: 445px;
+    height: 691px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../images/mssprojects/danaIsaacsonposter\ .jpg);
+    margin-right:249px;
+    margin-top: 27px;
+}
+
+.mssproject7{
+    float: left;
+    width: 445px;
+    height: 691px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../images/mssprojects/minzingimpostersyndrome.jpg);
+    margin-left: 239px;
+    margin-top: 27px;
+}
+
+.mssproject8{
+    float: right;
+    width: 528px;
+    height: 691px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image:url(../images/mssprojects/mssopenhouseflyer.jpg);
+    margin-right:167px;
+    margin-top: 27px;
+}
+
+.mssproject9{
+    float: left;
+    width: 445px;
+    height: 691px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../images/mssprojects/TaxTalk\ Poster\(the\ sequel\).jpg);
+    margin-left: 239px;
+    margin-top: 27px;
+}
+
+.mssproject10{
+    clear: both;
+    float: left;
+    width: 923px;
+    height: 691px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../images/mssprojects/JUSTMOVEsocialmediagraphic\ .jpg);
+    margin-left: 239px;
+    margin-top: 30px;
+}
+
+.mssproject11{
+    float: left;
+    width: 923px;
+    height: 382px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../images/mssprojects/leadershipawards.jpg);
+    margin-left: 239px;
+    margin-top: 30px;
+}
+
+.mssproject12{
+    float: left;
+    width: 923px;
+    height: 516px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../images/mssprojects/mentoringprogram.jpg);
+    margin-left: 238px;
+    margin-top: 30px;
+    margin-bottom:50px;
+}
+
+.mssproject13{
+    float: right;
+    width: 528px;
+    height: 790px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../images/mssprojects/Scholarshipproject.jpg);
+    margin-right:168px;
+    margin-top: 30px;
+}
+
+.msstext{
+    clear: both;
+    width: 636px;
+    margin-left:365px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #000000;
+    text-align: center;
+}
+
+.mssproject14{
+    clear: both;
+    float: left;
+    width:300px;
+    height:300px;
+    background-image: url(../images/mssprojects/stickerdesign1.png);
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-top: 30px;
+    margin-left: 214px;
+    border: 3px solid #000;
+}
+
+.mssproject15{
+    float: left;
+    width:300px;
+    height:300px;
+    background-image: url(../images/mssprojects/stickerdesign2.png);
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-top: 30px;
+    margin-left: 8px;
+    border: 3px solid #000;
+}
+
+.mssproject16{
+    float: right;
+    width:300px;
+    height:300px;
+    background-image: url(../images/mssprojects/stickerdesign3.png);
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-top: 30px;
+    margin-right:250px;
+    border: 3px solid #000;
+}
+
+.mssproject17{
+    float: left;
+    width:300px;
+    height:300px;
+    background-image: url(../images/mssprojects/stickerdesign4.png);
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-top: 30px;
+    margin-left: 209px;
+    margin-bottom: 50px;
+    border: 3px solid #000;
+}
+
+.mssproject18{
+    float: left;
+    width:300px;
+    height:300px;
+    background-image: url(../images/mssprojects/stickerdesign5.png);
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-top: 30px;
+    margin-left: 9px;
+    border: 3px solid #000;
+}
+
+.msstext2{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:404px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #000000;
+    text-align: center;
+}
+
+.mainholder6{
+    display: none;
+    position: absolute;
+    width:1400px;
+    height:7511px;
+    top:50%;
+    left:50%;
+    margin-left:-700px;
+    margin-top:-300px;
+    background-color: #ffffff;
+}
+
+.design3{
+    background-image: url(../images/bsulogo.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #ffffff;
+}
+
+.bsuproject{
+    float: left;
+    width: 300px;
+    height: 300px;
+    /*border-radius: 100%;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../images/bsuprojects/bsuoldlogo.jpg);
+    margin-top: 81px;
+    margin-left: 308px;
+    margin-bottom: 50px;
+}
+
+.arrow{
+    font-style: 55px;
+    float: left;
+    margin-top: 203px;
+    margin-left: 83px;
+    color: #5b3e31;;
+}
+
+.bsuproject2{
+    float: right;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../images/bsuprojects/bsulogo.png);
+    margin-top: 81px;
+    background-color: #ffffff;
+    margin-right: 290px;
+}
+
+.bsutext{
+    float: left;
+    width: 636px;
+    margin-left: 412px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #5b3e31;;
+    text-align: center;
+}
+
+.bsuproject3{
+    clear: both;
+    float: left;
+    width: 445px;
+    height: 691px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-image: url(../images/bsuprojects/blackart_poster.jpg);
+    margin-left: 236px;
+}
+
+.bsuproject4{
+    float: right;
+    width: 445px;
+    height: 691px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-image: url(../images/bsuprojects/blackartpostercontinued.jpg);
+    margin-right: 259px;
+}
+
+.bsuproject5{
+    float: left;
+    width: 445px;
+    height: 691px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-image: url(../images/bsuprojects/familyfeud.jpg);
+    margin-left: 236px;
+    margin-top: 30px;
+}
+
+.bsuproject6{
+    float: right;
+    width: 445px;
+    height: 691px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-image: url(../images/bsuprojects/hairdemo.jpg);
+    margin-top: 30px;
+    margin-right: 259px;
+}
+
+.bsuproject7{
+    float:left;
+    width: 445px;
+    height: 691px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-image: url(../images/bsuprojects/humanlibraryposters.jpg);
+    margin-left: 236px;
+    margin-top: 30px;
+}
+
+.bsuproject8{
+    float: right;
+    width: 445px;
+    height: 691px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-image: url(../images/bsuprojects/twerkout.jpg);
+    margin-top: 30px;
+    margin-right: 259px;
+}
+
+.bsuproject9{
+    float: left;
+    width: 445px;
+    height: 691px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-image: url(../images/bsuprojects/FaithandSexualityposter\ 1.jpg);
+    margin-left: 236px;
+    margin-top: 30px;
+}
+
+.bsuproject10{
+    float: right;
+    width: 445px;
+    height: 691px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-image: url(../images/bsuprojects/faith&sexuality2.jpg);
+    margin-top: 30px;
+    margin-right: 259px;
+}
+
+.bsuproject11{
+    float: left;
+    width: 445px;
+    height: 691px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-image: url(../images/bsuprojects/bsumovienight\ .jpg);
+    margin-left: 236px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.bsutext2{
+    float: left;
+    width: 636px;
+    margin-left:393px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #5b3e31;
+    text-align: center;
+}
+
+.col-left5{
+    float: left;
+    background-color:#ffffff;
+    width: 1036px;
+    height: 381px;
+    margin-left: 236px;
+    margin-bottom: 50px;
+}
+
+.bsuproject12{
+    clear: both;
+    float: left;
+    background-image: url(../images/bsuprojects/merch1.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    margin-left:9px;
+}
+
+/*.bsumerch{
+    clear: both;
+    float: left;
+    margin-left: 40px;
+}*/
+
+.bsuproject13{
+    float: left;
+    background-image: url(../images/bsuprojects/merchkeychain.png);
+    width: 100px;
+    height: 347px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    margin-left:147px;
+}
+
+.bsuproject14{
+    float: right;
+    background-image: url(../images/bsuprojects/bsu\ button.png);
+    width: 366px;
+    height: 347px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    margin-right:16px;
+}
+
+.bsutext3{
+    float: left;
+    width: 636px;
+    margin-left:394px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #5b3e31;
+    text-align: center;
+}
+
+.bsuproject15{
+    clear: both;
+    float: left;
+    background-image: url(../images/bsuprojects/backyard\ back\ poster.jpg);
+    width:895px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    margin-left: 236px;
+    border-radius: 1%;
+}
+
+.bsuproject16{
+    clear: both;
+    float: left;
+    background-image: url(../images/bsuprojects/bsubackyardsticker.png);
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    margin-top: 30px;
+    margin-left:557px;
+    margin-bottom: 50px;
+    border: 3px solid #5b3e31;
+}
+
+.bsutext4{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:418px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #5b3e31;
+    text-align: center;
+}
+
+.bsuproject17{
+    clear: both;
+    float: left;
+    background-image: url(../images/bsuprojects/bsu\ fundraiser\ sticker.png);
+    width: 315px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    margin-top: 30px;
+    margin-left:347px;
+    margin-bottom: 50px;
+}
+
+.bsuproject18{
+    float: right;
+    background-image: url(../images/bsuprojects/bsu\ fundraiser\ warning-02.png);
+    width: 433px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    margin-top: 30px;
+    margin-right:297px;
+}
+
+.bsutext5{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:391px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #5b3e31;
+    text-align: center;
+}
+
+.bsuproject19{
+    clear: both;
+    float: left;
+    background-image: url(../images/bsuprojects/graduation.png);
+    width: 364px;
+    height: 652px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    margin-top: 30px;
+    margin-left:520px;
+    margin-bottom: 50px;
+}
+
+.bsutext6{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:369px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #5b3e31;
+    text-align: center;
+}
+
+.design4{
+    background-image: url(../images/aminacircle.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-color: #ffffff;
+}
+
+.mainholder7{
+    display: none;
+    position: absolute;
+    width:1400px;
+    height:7708px;
+    top:50%;
+    left:50%;
+    margin-left:-700px;
+    margin-top:-300px;
+    background-color:#ffffff;
+}
+
+.uxproject{
+    float: left;
+    width: 486px;
+    height: 359px;
+    background-image: url(../images/uxdesign/persona1.jpg);
+    margin-top: 81px;
+    margin-left: 210px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.uxproject2{
+    float: right;
+    width: 486px;
+    height: 359px;
+    background-image: url(../images/uxdesign/persona2.jpg);
+    margin-top: 81px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-right: 205px;
+}
+
+.uxproject3{
+    clear: both;
+    float: left;
+    width: 486px;
+    height: 359px;
+    background-image: url(../images/uxdesign/persona3.jpg);
+    margin-top: 30px;
+    margin-left: 210px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-bottom: 50px;
+}
+
+.uxproject4{
+    float: right;
+    width: 486px;
+    height: 359px;
+    background-image: url(../images/uxdesign/person4.jpg);
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-right: 205px;
+}
+
+.uxtext{
+    float: left;
+    width: 636px;
+    margin-left:377px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #5b3e31;
+    text-align: center;
+}
+
+
+.uxproject5{
+    clear:both;
+    float: left;
+    width: 567px;
+    height: 359px;
+    background-image: url(../images/uxdesign/personaexample.jpg);
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-left: 155px;
+}
+
+.uxproject6{
+    float: right;
+    width: 569px;
+    height: 359px;
+    background-image: url(../images/uxdesign/layout1.jpg);
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-right:94px;
+}
+
+.uxproject7{
+    float: left;
+    width: 567px;
+    height: 359px;
+    background-image: url(../images/uxdesign/layout2.jpg);
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-left: 155px;
+}
+
+.uxproject8{
+    float: right;
+    width: 569px;
+    height: 359px;
+    background-image: url(../images/uxdesign/desktopwireframe.jpg);
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-right:94px;
+}
+
+.uxproject9{
+    float: left;
+    width: 567px;
+    height: 359px;
+    background-image: url(../images/uxdesign/mobilewireframe.jpg);
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-left: 155px;
+}
+
+.uxproject10{
+    float: right;
+    width: 567px;
+    height: 359px;
+    background-image: url(../images/uxdesign/tabletwireframe.jpg);
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-right:94px;
+}
+
+.uxproject11{
+    float: left;
+    width: 567px;
+    height: 359px;
+    background-image: url(../images/uxdesign/smartwatchwireframe.jpg);
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-left: 155px;
+    margin-bottom: 50px;
+}
+
+.uxtext2{
+    float: left;
+    width: 636px;
+    margin-left:370px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #5b3e31;
+    text-align: center;
+}
+
+.uxproject12{
+    clear: both;
+    float: left;
+    width: 557px;
+    height: 315px;
+    background-image: url(../images/uxdesign/designs1.jpg);
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-left: 155px;
+}
+
+.uxproject13{
+    float: right;
+    width: 557px;
+    height: 315px;
+    background-image: url(../images/uxdesign/design2.jpg);
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-right:94px;
+}
+
+.uxproject14{
+    float: left;
+    width: 557px;
+    height: 315px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-left: 155px;
+    background-image: url(../images/uxdesign/design3.jpg);
+}
+
+.uxproject15{
+    float: right;
+    width: 557px;
+    height: 315px;
+    background-image: url(../images/uxdesign/design4.jpg);
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-right:94px;
+}
+
+.uxproject16{
+    float: left;
+    width: 557px;
+    height: 315px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-left: 155px;
+    background-image: url(../images/uxdesign/design5.jpg);
+    margin-bottom: 50px;
+}
+
+.uxtext3{
+    float: left;
+    width: 636px;
+    margin-left:365px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #5b3e31;
+    text-align: center;
+}
+
+.uxproject17{
+    clear: both;
+    float: left;
+    width: 598px;
+    height: 697px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: url(../images/uxdesign/Introduction\ to\ Amina.jpg);
+    margin-left: 111px;
+}
+
+.uxproject18{
+    float: right;
+    width: 598px;
+    height: 697px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: url(../images/uxdesign/Homepage.jpg);
+    margin-right:80px;
+}
+
+.uxproject19{
+    float: left;
+    width: 598px;
+    height: 697px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/uxdesign/Self\ Care\ Page.jpg);
+    margin-left: 111px;
+}
+
+.uxproject20{
+    float: right;
+    width: 598px;
+    height: 697px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: url(../images/uxdesign/Self\ Care\ podcasting.jpg);
+    margin-right:80px;
+}
+
+.uxproject21{
+    float: left;
+    width: 598px;
+    height: 697px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: url(../images/uxdesign/Self\ Care\ podcast\ selected.jpg);
+    margin-left: 111px;
+}
+
+.uxproject22{
+    float: right;
+    width: 598px;
+    height: 697px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: url(../images/uxdesign/About\ Page.jpg);
+    margin-right:80px;
+}
+
+.uxproject23{
+    float: left;
+    width: 598px;
+    height: 697px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: url(../images/uxdesign/Counseling.jpg);
+    margin-left: 111px;
+}
+
+.uxproject24{
+    float: right;
+    width: 598px;
+    height: 697px;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-right:80px;
+    background-image: url(../images/uxdesign/Chat.jpg);
+    margin-bottom: 50px;
+}
+
+.video3{
+    clear: both;
+    float: left;
+    margin-left: 111px;
+    border-radius: 1%;
+    margin-bottom: 50px;
+}
+
+.uxtext4{
+    float: left;
+    width: 636px;
+    margin-left:395px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #5b3e31;
+    text-align: center;
+}
+
+.design5{
+    background-image: url(../images/mute.jpg);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #ffffff;
+}
+
+.mainholder8{
+    display: none;
+    position: absolute;
+    width:1400px;
+    height:827px;
+    top:50%;
+    left:50%;
+    margin-left:-700px;
+    margin-top:-300px;
+    background-color:#ffffff;
+}
+
+.muteproject{
+    float: left;
+    margin-top: 81px;
+    margin-left:90px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: url(../images/mute/design1.jpg);
+    width: 590px;
+    height: 420px;
+    margin-bottom: 50px;
+}
+
+.arrow2{
+    font-style: 55px;
+    float: left;
+    margin-top: 203px;
+    margin-left: 36px;
+    color: #de88a2;
+}
+
+.muteproject2{
+    float: right;
+    margin-right: 198px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: url(../images/mute/finaldesign.jpg);
+    width: 307px;
+    height: 426px;
+    margin-top:42px;
+}
+
+.mutetext{
+    float: left;
+    width: 636px;
+    margin-left: 412px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #000000;
+    text-align: center;
+}
+
+.design6{
+    background-image: url(../images/finalizechromelogo.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #ffffff;
+}
+
+.mainholder9{
+    display: none;
+    position: absolute;
+    width:1400px;
+    height:10180px;
+    top:50%;
+    left:50%;
+    margin-left:-700px;
+    margin-top:-300px;
+    background-color: #ffffff;
+}
+
+.gameproject{
+    float: left;
+    margin-top: 81px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/RM5/babylogo1.jpg);
+    width: 445px;
+    height: 691px;
+    margin-left: 239px;
+}
+
+.gameproject2{
+    float: right;
+    margin-top: 81px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: url(../images/RM5/babylogo2.jpg);
+    width: 445px;
+    height: 691px;
+    margin-right:247px;
+}
+
+.gameproject3{
+    clear: both;
+    float: left;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 445px;
+    height: 691px;
+    margin-left: 239px;
+    background-image: url(../images/RM5/babylogo3.jpg);
+    margin-top: 30px;
+}
+
+.gameproject4{
+    float: right;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 445px;
+    height: 691px;
+    margin-right:247px;
+    margin-top: 30px;
+    background-image: url(../images/RM5/babylogo4.jpg);
+}
+
+.gameproject5{
+    clear: both;
+    float: left;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 445px;
+    height: 691px;
+    margin-left: 239px;
+    background-image: url(../images/RM5/babylogo5.jpg);
+    margin-top: 30px;
+}
+
+.gameproject6{
+    float: right;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 445px;
+    height: 691px;
+    margin-right:247px;
+    margin-top: 30px;
+    background-image: url(../images/RM5/babylogo6.jpg);
+}
+
+.gameproject7{
+    clear: both;
+    float: left;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 445px;
+    height: 691px;
+    margin-left: 239px;
+    background-image: url(../images/RM5/babylogo7.jpg);
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.gametext{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:383px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #bc9928;
+    text-align: center;
+}
+
+.gameproject8{
+    clear: both;
+    float: left;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 445px;
+    height: 691px;
+    margin-left: 239px;
+    background-image: url(../images/RM5/babylogo2.1.jpg);
+}
+
+.gameproject9{
+    float: right;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 445px;
+    height: 691px;
+    margin-right:247px;
+    margin-top: 0px;
+    background-image: url(../images/RM5/babylogo2.2.jpg);
+}
+
+.gameproject10{
+    float: left;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 445px;
+    height: 691px;
+    margin-left: 239px;
+    margin-top: 30px;
+    background-image: url(../images/RM5/babylogo\ 2.3.jpg);
+}
+
+.gameproject11{
+    float: right;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 445px;
+    height: 691px;
+    margin-right:247px;
+    margin-top: 30px;
+    background-image: url(../images/RM5/babylogo2.4.jpg);
+}
+
+.gameproject12{
+    float: left;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 445px;
+    height: 691px;
+    margin-left: 239px;
+    margin-top: 30px;
+    background-image: url(../images/RM5/babylogo2.5.jpg);
+}
+
+.gameproject13{
+    float: right;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 445px;
+    height: 691px;
+    margin-right:247px;
+    margin-top: 0px;
+    margin-top: 30px;
+    background-image: url(../images/RM5/babylogo2.6.jpg);
+}
+
+.gameproject14{
+    float: left;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 445px;
+    height: 691px;
+    margin-left: 239px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-image: url(../images/RM5/babylogo2.7.jpg);
+}
+
+.gametext2{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:374px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #bc9928;
+    text-align: center;
+}
+
+.gameproject15{
+    clear: both;
+    float: left;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 470px;
+    height: 691px;
+    margin-left: 236px;
+    margin-top: 0px;
+    background-image: url(../images/RM5/babylogo3.1.jpg);
+}
+
+.gameproject16{
+    float: right;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 487px;
+    height: 691px;
+    margin-right:190px;
+    margin-top: 0px;
+    background-image: url(../images/RM5/babylogo3.2.jpg);
+}
+
+.gameproject17{
+    float: left;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 470px;
+    height: 691px;
+    margin-left: 236px;
+    margin-top: 30px;
+    background-image: url(../images/RM5/babylogo3.3.jpg);
+}
+
+.gameproject18{
+    float: right;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 482px;
+    height: 691px;
+    margin-right:190px;
+    margin-top: 30px;
+    background-image: url(../images/RM5/babylogo3.4.jpg);
+}
+
+.gameproject19{
+    float: left;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 470px;
+    height: 691px;
+    margin-left: 236px;
+    margin-top: 30px;
+    background-image: url(../images/RM5/babylogo3.5.jpg);
+}
+
+.gameproject20{
+    float: right;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 482px;
+    height: 691px;
+    margin-right:190px;
+    margin-top: 30px;
+    background-image: url(../images/RM5/babylogo3.6.jpg);
+}
+
+.gameproject21{
+    float: left;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 470px;
+    height: 691px;
+    margin-left: 236px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(../images/RM5/babylogo3.7.jpg);
+}
+
+.gameproject22{
+    float: right;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 482px;
+    height: 691px;
+    margin-right:190px;
+    margin-top: 30px;
+    background-image: url(../images/RM5/babylogo3.8.jpg);
+}
+
+.gametext3{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:387px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #bc9928;
+    text-align: center;
+}
+
+.gameproject23{
+    clear: both;
+    float: left;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 464px;
+    height: 542px;
+    margin-left: 236px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    background-image: url(../images/RM5/finalizelogo.png);
+}
+
+.gameproject24{
+    float: right;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 464px;
+    height: 542px;
+    margin-right: 236px;
+    margin-top: 0px;
+    background-image: url(../images/RM5/finalizechromelogo.png);
+}
+
+.gametext4{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:385px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #bc9928;
+    text-align: center;
+}
+
+.design7{
+    background-image: url(../images/beautycircle.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.mainholder10{
+    display: none;
+    position: absolute;
+    width:1400px;
+    height:3505px;
+    top:50%;
+    left:50%;
+    margin-left:-700px;
+    margin-top:-300px;
+    background-color:#ffffff;
+}
+
+.beautyproject{
+    float: left;
+    margin-top: 81px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/beautyprojects/firstdesign.jpg);
+    width: 491px;
+    height: 698px;
+    margin-left: 228px;
+}
+
+.beautyproject2{
+    float: right;
+    margin-top: 81px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 491px;
+    height: 698px;
+    margin-right: 170px;
+    background-image: url(../images/beautyprojects/firstdesign\(2\).jpg);
+}
+
+.beautyproject3{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/beautyprojects/flowerdesigndrawing.jpg);
+    width: 491px;
+    height: 698px;
+    margin-left: 228px;
+    margin-bottom: 50px;
+}
+
+.beautytext{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:388px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #000;
+    text-align: center;
+}
+
+.beautyproject4{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/beautyprojects/flowerdesign1.jpg);
+    width: 550px;
+    height: 380px;
+    margin-left: 161px;
+}
+
+.beautyproject5{
+    float: right;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/beautyprojects/flowerdesign2.jpg);
+    width: 550px;
+    height: 380px;
+    margin-right: 121px;
+}
+
+.beautyproject6{
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/beautyprojects/flowerdesign3.jpg);
+    width: 550px;
+    height: 380px;
+    margin-left: 161px;
+    margin-bottom: 50px;
+}
+
+.beautyproject7{
+    float: right;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/beautyprojects/flowerdesign4.jpg);
+    width: 550px;
+    height: 380px;
+    margin-right: 121px;
+}
+
+.beautytext2{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:382px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #000;
+    text-align: center;
+}
+
+.beautyproject8{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/beautyprojects/flowerdesign4.jpg);
+    width: 550px;
+    height: 380px;
+    margin-left:453px;
+    margin-bottom: 50px;
+}
+
+.beautytext3{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:398px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #000;
+    text-align: center;
+}
+
+.design8{
+    background-image: url(../images/LITlogo.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #ffffff;
+}
+
+.mainholder11{
+    display: none;
+    position: absolute;
+    width:1400px;
+    height:4191px;
+    top:50%;
+    left:50%;
+    margin-left:-700px;
+    margin-top:-300px;
+    background-color:#ffffff;
+}
+
+.litproject{
+    float: left;
+    margin-top: 81px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/LITprojects/inspo.jpg);
+    width: 528px;
+    height: 698px;
+    margin-left: 157px;
+    margin-bottom: 50px;
+}
+
+.litproject2{
+    float: right;
+    margin-top: 81px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/LITprojects/inspo2.jpg);
+    width: 573px;
+    height: 698px;
+    margin-right: 130px;
+}
+
+.LITtext{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:368px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color:#f17829;
+    text-align: center;
+}
+
+.litproject3{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/LITprojects/LITposterdesigns\(1\).png);
+    width: 528px;
+    height: 786px;
+    margin-left: 192px;
+}
+
+.litproject4{
+    float: right;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/LITprojects/LITposters\(2\)png.png);
+    width: 537px;
+    height: 834px;
+    margin-right: 130px;
+}
+
+.litproject5{
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/LITprojects/LITposters\(3\).png);
+    width: 528px;
+    height: 786px;
+    margin-left: 192px;
+    margin-bottom: 192px;
+}
+
+.litproject6{
+    float: right;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/LITprojects/LITposters\(4\).png);
+    width: 573px;
+    height: 844px;
+    margin-right: 92px;
+}
+
+.LITtext2{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:372px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color:#f17829;
+    text-align: center;
+}
+
+.litproject7{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/LITprojects/Life\ \ Stout\ Poster.png);
+    width: 528px;
+    height: 814px;
+    margin-left:417px;
+    margin-bottom: 50px;
+}
+
+.LITtext3{
+    clear: both;
+    float: left;
+    width: 636px;
+    margin-left:379px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color:#f17829;
+    text-align: center;
+}
+
+.design9{
+    background-image: url(../images/justatiplogo.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #ffffff;
+}
+
+.mainholder12{
+    display: none;
+    position: absolute;
+    width:1400px;
+    height:12143px;
+    top:50%;
+    left:50%;
+    margin-left:-700px;
+    margin-top:-300px;
+    background-color: #ffffff;
+}
+
+.seniorproject{
+    float: left;
+    margin-top: 81px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/propsoals\(1\).jpg);
+    width: 536px;
+    height: 266px;
+    margin-left: 192px;
+}
+
+.seniorproject2{
+    float: right;
+    margin-top: 81px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/Swen_Proposals\(2\).jpg);
+    width: 536px;
+    height: 266px;
+    margin-right: 121px;
+}
+
+.seniorproject3{
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/Proposals\(3\).jpg);
+    width: 536px;
+    height: 266px;
+    margin-left: 192px;
+    margin-bottom: 50px;
+}
+
+.seniortext{
+    clear: both;
+    float: left;
+    width: 686px;
+    margin-left:361px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #040288;
+    text-align: center;
+}
+
+.seniorproject4{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/Empathy\ Map-01.png);
+    width: 534px;
+    height: 419px;
+    margin-left: 192px;
+}
+
+.seniorproject5{
+    float: right;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/Empathy\ Map-02.png);
+    width: 534px;
+    height: 419px;
+    margin-right: 121px;
+}
+
+.seniorproject6{
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/Empathy\ Map-03.png);
+    width: 534px;
+    height: 419px;
+    margin-left: 192px;
+    margin-bottom: 50px;
+}
+
+.seniortext2{
+    clear: both;
+    float: left;
+    width: 686px;
+    margin-left: 350px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #040288;
+    text-align: center;
+}
+
+.seniorproject7{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/Personas\ \(seniorshow\).jpg);
+    width: 528px;
+    height: 814px;
+    margin-left: 192px;
+}
+
+.seniorproject8{
+    float: right;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/Personas\ \(seniorshow\)2.jpg);
+    width: 528px;
+    height: 814px;
+    margin-right: 143px;
+}
+
+.seniorproject9{
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/Personas\ \(seniorshow\)3.jpg);
+    width: 528px;
+    height: 814px;
+    margin-left: 192px;
+    margin-bottom: 50px;
+}
+
+.seniortext3{
+    clear: both;
+    float: left;
+    width: 686px;
+    margin-left:369px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #040288;
+    text-align: center;
+}
+
+.seniorproject10{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/brandingmoodboard.png);
+    width: 629px;
+    height: 496px;
+    margin-left: 192px; 
+    margin-bottom: 50px;
+}
+
+.seniorproject11{
+    float: right;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/fontinsprationprint.png);
+    width: 290px;
+    height: 499px;
+    margin-right: 273px;
+}
+
+.seniortext4{
+    clear: both;
+    float: left;
+    width: 686px;
+    margin-left:370px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #040288;
+    text-align: center;
+}
+
+.seniorproject12{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/brandingname.png);
+    width: 489px;
+    height: 510px;
+    margin-left:169px; 
+}
+
+.seniorproject13{
+    float: right;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/keywords\ \(1\).png);
+    width: 645px;
+    height: 441px;
+    margin-right:76px; 
+}
+
+.seniorproject14{
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/old\ logos.png);
+    width: 593px;
+    height: 447px;
+    margin-left: 151px;
+}
+
+.seniorproject15{
+    float: right;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/logo\ idetations\ 2.png);
+    width: 593px;
+    height: 447px;
+    margin-right:50px;
+}
+
+.seniorproject16{
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/idetation3.png);
+    width: 593px;
+    height: 447px;
+    margin-left: 151px;
+    margin-bottom: 50px;
+}
+
+.seniorproject17{
+    float: right;
+    margin-top: 67px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/finallogo.png);
+    width: 409px;
+    height: 357px;
+    margin-right:176px;
+}
+
+.seniortext5{
+    clear: both;
+    float: left;
+    width: 686px;
+    margin-left:352px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #040288;
+    text-align: center;
+}
+
+.seniorproject18{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: url(../images/justatipproject/posters\(1\).jpg);
+    width: 528px;
+    height: 814px;
+    margin-left: 151px;
+}
+
+.seniorproject19{
+    float: right;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/posters\(2\).jpg);
+    width: 528px;
+    height: 814px;
+    margin-right: 160px;
+}
+
+.seniorproject20{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/posters\(3\).jpg);
+    width: 528px;
+    height: 814px;
+    margin-left: 151px;
+    margin-bottom: 50px;
+}
+
+.seniorproject21{
+    float: right;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/posters\(4\).jpg);
+    width: 528px;
+    height: 814px;
+    margin-right: 160px;
+}
+
+.seniortext6{
+    clear: both;
+    float: left;
+    width: 686px;
+    margin-left:335px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #040288;
+    text-align: center;
+}
+
+.seniorproject22{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/Open\ page.png);
+    width: 290px;
+    height: 627px;
+    margin-left: 192px;
+}
+
+.seniorproject23{
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/Log\ in.png);
+    width: 290px;
+    height: 627px;
+    margin-left:92px;
+}
+
+.seniorproject24{
+    float: right;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/Homepage\ –\ 1.png);
+    width: 290px;
+    height: 627px;
+    margin-right:197px;
+}
+
+.seniorproject25{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/Ask\ HIM\ -\ AI3x.png);
+    width: 290px;
+    height: 627px;
+    margin-left: 192px;
+    margin-bottom: 50px;
+}
+
+.video1{
+    float: left;
+    margin-left:92px;
+    margin-top:30px;
+    border-radius: 1%;
+}
+
+.seniortext7{
+    clear: both;
+    float: left;
+    width: 686px;
+    margin-left:357px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #040288;
+    text-align: center;
+}
+
+.seniorproject26{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/DestinySwen_image1.jpg);
+    width: 432px;
+    height: 627px;
+    margin-left: 192px;
+}
+
+.seniorproject27{
+    float: right;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/DestinySwen_image2.jpg);
+    width: 618px;
+    height: 627px;
+    margin-right:147px;
+}
+
+.seniorproject28{
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/DestinySwen_image3.jpg);
+    width: 565px;
+    height: 554px;
+    margin-left: 192px;
+    margin-bottom: 50px;
+}
+
+.seniorproject29{
+    float: right;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/businesscardfront.png);
+    width: 457px;
+    height: 194px;
+    margin-right:147px;
+}
+
+.seniorproject30{
+    float: right;
+    margin-top: 80px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/justatipproject/businesscardback.png);
+    width: 457px;
+    height: 194px;
+    margin-right:147px;
+}
+
+.seniortext8{
+    clear: both;
+    float: left;
+    width: 686px;
+    margin-left:361px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #040288;
+    text-align: center;
+}
+
+.video2{
+    clear: both;
+    float: left;
+    margin-left: 192px;
+    border-radius: 1%;
+    margin-bottom:90px;
+}
+
+.seniorproject31{
+    float: right;
+    width: 300px;
+    height: 395px;
+    background-image: url(../images/justatipproject/seniorshowinperson.png);
+    background-color: #ccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-right: 279px;
+    border-radius: 1%;
+}
+
+
+.design10{
+    background-image: url(../images/heatdance.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #000000;
+}
+
+.mainholder13{
+    display: none;
+    position: absolute;
+    width:1400px;
+    height:4531px;
+    top:50%;
+    left:50%;
+    margin-left:-700px;
+    margin-top:-300px;
+    background-color: #ffffff;
+}
+
+.heatdanceproject{
+    float: left;
+    margin-top: 81px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/heatdanceproject/Slumber\ Party\ -\ destinyswenv1.png);
+    width: 574px;
+    height: 302px;
+    margin-left: 141px;
+    margin-bottom: 50px;
+}
+
+.heatdanceproject2{
+    float: right;
+    margin-top: 81px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/heatdanceproject/Slumber\ Party\ -\ destinyswenv2.png);
+    width: 574px;
+    height: 302px;
+    margin-right: 91px;
+}
+
+.heatdancetext{
+    clear: both;
+    float: left;
+    width: 621px;
+    margin-left: 389px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #79305a;
+    text-align: center;
+}
+
+.heatdanceproject3{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/heatdanceproject/villiansv1.png);
+    width: 906px;
+    height: 299px;
+    margin-left:271px;
+    margin-bottom: 50px;
+}
+
+.heatdancetext2{
+    clear: both;
+    float: left;
+    width: 621px;
+    margin-left: 413px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #79305a;
+    text-align: center;
+}
+
+.heatdanceproject4{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/heatdanceproject/LC\ -\ Malibu\ Beach\ Body\ Complete\ Destiny\ Swen\ v1.png);
+    width: 754px;
+    height: 503px;
+    margin-left:333px;
+    margin-bottom: 50px;
+}
+
+.heatdancetext3{
+    clear: both;
+    float: left;
+    width: 621px;
+    margin-left: 424px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #79305a;
+    text-align: center;
+}
+
+.heatdanceproject5{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/heatdanceproject/Latin\ Heat_destinyswenv3.png);
+    width: 754px;
+    height: 437px;
+    margin-left: 325px;
+    margin-bottom: 50px;
+}
+
+.heatdancetext4{
+    clear: both;
+    float: left;
+    width: 621px;
+    margin-left: 393px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #79305a;
+    text-align: center;
+}
+
+.heatdanceproject6{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/heatdanceproject/CW-MBB\ Complete\ Destiny\ Swen\ v1.png);
+    width: 494px;
+    height: 760px;
+    margin-left:449px;
+    margin-bottom: 50px;
+}
+
+.heatdancetext5{
+    clear: both;
+    float: left;
+    width: 621px;
+    margin-left: 393px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #79305a;
+    text-align: center;
+}
+
+.heatdanceproject7{
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    border-radius: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url(../images/heatdanceproject/Barbie\ Girl_destinyswenv4.png);
+    width: 772px;
+    height: 437px;
+    margin-left: 315px;
+    margin-bottom: 50px;
+}
+
+.heatdancetext6{
+    clear: both;
+    float: left;
+    width: 621px;
+    margin-left: 393px;
+    margin-bottom: 59px;
+    font-size:15px;
+    line-height:30px;
+    color: #79305a;
+    text-align: center;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top:320px;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
+
+.contactpage{
+    display: none;
+    width: 500px;
+    height: 600px;
+    background-color: #ffffff;
+    float: left;
+    margin-left: 199px;
+    margin-top: 90px;
+}
+
+.second{
+    background-color: #ffffff;
+    margin-left:18px;
+}
+
+.mainholder14{
+    display: none;
+    position: absolute;
+    width:1400px;
+    height:680px;
+    top:50%;
+    left:50%;
+    margin-left:-700px;
+    margin-top:-300px;
+    background-color:#ffffff;
+}
+
+.contactphoto{
+    float: left;
+    width:496px;
+	height:522px;
+    background-image: url(../images/photocirclefinal2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-left:197px;
+    margin-top:68px;
+}
+
+.finalcontainer{
+    float: right;
+    width:439px;
+	height:249px;
+    background-color:#ffffff;
+    margin-right: 200px;
+}
+
+.finalheading{
+    float:left;
+    margin-right:212px;
+    font-size:38px; 
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-bottom: 12px;
+    color:#b36c3e;
+}
+
+.finaltext{
+    margin-left:3px;
+    font-size:16px;
+    width:445px;
+    margin-top:21px;
+    line-height:28px;
+    margin-bottom: 12px;
+    color: #2f1b12;
+}
+
+.finaltext2{
+    font-size:16px;
+    font-style: italic;
+    margin-bottom: 17px;
+    color: #2f1b12;
+}
+
+.finaltext3{
+    font-size:16px;
+    font-style: italic;
+    color: #2f1b12;
+}
